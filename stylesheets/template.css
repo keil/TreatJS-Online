@@ -1,0 +1,364 @@
+/**
+##############################
+TEMPLATE
+##############################
+ */
+
+html {
+  height: 100%;
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f3f1;
+}
+
+div#wrapper {
+  /*margin: 2ex;*/
+}
+
+.frame {
+  margin-right: 93px;
+}
+
+/**
+##############################
+HEADLINE
+##############################
+ */
+
+div#headline_wrapper {
+  height: 206px;
+}
+
+div#logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background-image: url(../colorschemes/logo2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  width: 174px;
+  height: 206px;
+}
+
+div#headline {
+  position: relative;
+  height: 138px;
+
+  background-color: #004a99;
+}
+
+div#headline div#title_wrapper {
+  margin: 1ex; 
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div#headline div#title  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.0em;
+  color: #fff;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+div#headline div#subtitle  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+/**
+##############################
+NAVIGATION
+##############################
+ */
+
+div#navigation {
+  margin-top: 6px;
+  padding: 0;
+  background: #c9cac8;
+}
+
+div#navigation ul {
+  padding: 0;
+  margin: 0;
+}
+
+div#navigation li {
+  float: left;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 1ex 2ex; 
+}
+
+div#navigation li:hover {
+  background-color: #b2b4b3;
+}
+
+div#navigation a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #363534;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+div#navigation a:hover {
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+/**
+##############################
+BODY
+##############################
+ */
+
+div#body {
+}
+
+div#content {
+  padding: 1ex;
+}
+
+/**
+##############################
+CONTENT
+##############################
+ */
+p  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  text-align: left;
+  color: #333333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  margin: 1ex 0;
+  padding: 0;
+}
+
+a {
+  color: #004477;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  background-color: #ddd;
+  border: none;
+  height: 1px;
+}
+
+/**
+##############################
+HEADLINE
+##############################
+ */
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.0em;
+  color: #333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 1ex 0 2ex;
+  border-bottom: #333 1px solid;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  color: #333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;/* TODO */ 
+  padding: 0;
+  margin: 1em 0 0;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 1em 0 0;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 1em 0 0;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 1ex 0 0;
+}
+
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+/**
+##############################
+IMAGE
+##############################
+ */
+img {
+  border: none;
+}
+
+/**
+##############################
+FORM
+##############################
+ */
+form {
+  padding: 0;
+  margin: 0;
+}
+
+button,input,textarea {
+  color: #047;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+button {
+}
+
+button#run {
+  background-color: #363534;
+  border: none;
+
+  color: #fff;
+  padding: 1ex 2ex;
+}
+
+button#run:active{
+  color: #c1002a;
+}
+
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+div#content label.inline {
+  display: inline-block;
+  min-width: 15ex;
+}
+
+div#sidebar label.inline {
+  display: inline-block;
+  min-width: 10ex;
+}
+
+/**
+##############################
+FOOTLINE
+##############################
+ */
+div#footline {
+  margin: 0;
+  padding: 1ex; 
+
+  background: #004a99;
+}
+
+div#footline p {
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+}
+
+div#footline a {
+  color: #fff;
+}
+
+/**
+##############################
+CONTENTBOX
+##############################
+ */
+.contentbox  {
+  margin: 0;
+  padding: 1ex;
+  background-color: #eee;
+  border: #ddd 1px solid;
+}
