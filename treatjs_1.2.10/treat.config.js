@@ -126,10 +126,10 @@
   var contractPassThrough = true;
 
   // print stack trace on error
-  var stackTrace = true;
+  var stackTrace = false;
 
   // call quit
-  var quitOnError = true;
+  var quitOnError = false;
 
   Object.defineProperties(Config, {
     "newGlobal": {
