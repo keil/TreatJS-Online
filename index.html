@@ -401,5 +401,56 @@ document.getElementById('output').value = "";
    })();
 </script>
 
+<!-- Setup Manual Button -->
+<script type="text/javascript">
+  (function() {
+
+   // set on click action
+   var manual = document.getElementById('manual');
+   manual.onclick = function() {
+
+   // clean up
+   cleanup();
+
+   // print manual
+   putstr("...");
+
+   }
+   })();
+</script>
+
+<!-- Setup Clean Button -->
+<script type="text/javascript">
+  (function() {
+
+   // set on click action
+   var contracts = document.getElementById('contracts');
+   contracts.onclick = function() {
+
+   // clean up
+   cleanup();
+
+   // print predefined contracts 
+   putstr("...");
+
+   }
+   })();
+</script>
+
+<!-- Setup Clean Button -->
+<script type="text/javascript">
+  (function() {
+
+   // set on click action
+   var clean = document.getElementById('clean');
+   clean.onclick = function() {
+
+   // clean up
+   cleanup();
+
+   }
+   })();
+</script>
+
   </body>
 </html>
