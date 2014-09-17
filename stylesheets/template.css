@@ -300,7 +300,7 @@ textarea {
 button {
 }
 
-button#run {
+button#run, button#link {
   background-color: #363534;
   border: none;
 
@@ -308,7 +308,7 @@ button#run {
   padding: 1ex 2ex;
 }
 
-button#run:active{
+button#run:active, button#link:active {
   color: #c1002a;
 }
 

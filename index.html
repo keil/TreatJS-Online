@@ -57,6 +57,10 @@
 
           <p>
           <button id="run" name="run" value="run">Run Code</button>
+          <button id="link" name="link" value="link">Make Link</button>
+          <button id="manual" name="manual" value="manual">Manual</button>
+          <button id="contracts" name="contracts" value="contracts">Predefined Contracts</button>
+          <button id="clean" name="clean" value="clean">Clean</button>
           </p>
 
           <p>
@@ -371,6 +375,28 @@ document.getElementById('output').value = "";
    // evaluate input
    var input =  document.getElementById('input').value;
    evaluate(input);
+   }
+   })();
+</script>
+
+<!-- Setup Make Link Button -->
+<script type="text/javascript">
+  (function() {
+
+   // set on click action
+   var link = document.getElementById('link');
+   link.onclick = function() {
+
+   // clean up
+   cleanup();
+
+   // get input
+   var input =  document.getElementById('input').value;
+   var href = 'http://www2.informatik.uni-freiburg.de/~keilr/treatjs/?code='+encodeURIComponent(input);
+
+   // print link
+   putstr(href);
+
    }
    })();
 </script>
