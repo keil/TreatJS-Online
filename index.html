@@ -73,7 +73,7 @@
         <div id="footline">
 
           <p>
-          <a href="http://proglang.informatik.uni-freiburg.de/treatjs/">TreatJS: Higher-Order Contracts for JavaScript</a>, Version 1.2.5
+          <a href="http://proglang.informatik.uni-freiburg.de/treatjs/">TreatJS: Higher-Order Contracts for JavaScript</a>, Version 1.2.8
           </p>
 
           <p>
@@ -149,7 +149,7 @@ if (typeof Proxy === "undefined") {
 <script type="text/javascript" src="src/treat.canonicalize.js"></script>
 
 <script type="text/javascript" src="src/treat.convenience.js"></script>
-<script type="text/javascript" src="test/contracts.js"></script>
+<script type="text/javascript" src="src/contracts/contracts.js"></script>
 
 <!-- TreatJS Sample Contracts -->
 <script type="text/javascript">
@@ -412,14 +412,8 @@ document.getElementById('output').value = "";
      // clean up
      cleanup();
 
-     var str="";
-
-     for(var p in Contract) {
-     str += "* Contract."+p+"\n";
-     }
-
      // print manual
-     putstr(str);
+     putstr(TreatJS.Manual);
 
      }
      })();
@@ -437,7 +431,7 @@ document.getElementById('output').value = "";
       cleanup();
 
       // print predefined contracts 
-      putstr("...");
+      putstr(TreatJS.Contracts);
 
       }
       })();
