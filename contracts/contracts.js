@@ -226,7 +226,9 @@
   },"Even");
 
   var Odd = TreatJS.BaseContract(function(arg) {
-    return (arg % 2 === 1);
+    // the Math object is not available in the sandbox
+    function abs(x) { return x >= 0 ? x : -x };
+    return (abs(arg) % 2 === 1);
   },"Odd");
 
   var Pos = TreatJS.BaseContract(function(arg) {
